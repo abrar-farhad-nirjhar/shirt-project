@@ -31,7 +31,7 @@ document.getElementById('submit').addEventListener('click', ()=>{
     }
     else{
         document.getElementById('error-message').innerHTML = ""
-        alert('Order Submitted Successfully!!\nSelected Color:'+color+"\nShirt Text : "+text+"\nNumber of shirts: "+document.getElementById('number').value+"\nTotal Amount: £"+document.getElementById('number').value*4)
+        alert('Order Submitted Successfully!!\nSelected Color : '+color+"\nShirt Text : "+text+"\nNumber of shirts : "+document.getElementById('number').value+"\nTotal Amount : £ "+document.getElementById('number').value*4)
         
     }
     
