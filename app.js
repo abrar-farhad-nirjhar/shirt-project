@@ -27,7 +27,7 @@ document.getElementById('shirt-text').addEventListener('keyup', (e)=>{
 
 document.getElementById('submit').addEventListener('click', ()=>{
     if(document.getElementById('number').value==0){
-        document.getElementById('error-message').innerHTML = "At least 1 shirt must ordered!"
+        document.getElementById('error-message').innerHTML = "At least 1 shirt must be ordered!"
     }
     else{
         document.getElementById('error-message').innerHTML = ""
